@@ -1,0 +1,211 @@
+
+
+
+li a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+#ulone li:hover {
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+input[type="search"] {
+    width: 140px;
+}
+.middle {
+    background-color: #f5f5dc;
+}
+
+.middle a {
+    text-decoration: none;
+}
+
+.middle li a {
+    color: #ffffff;
+}
+
+
+footer {
+    font-size: 10px;
+}
+
+
+.mybtn1 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 15px 17px;
+    border: 1px solid #0fa7af;
+    border-radius: 10px;
+    background: #18ffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#18ffff), to(#0fa7af));
+    background: -moz-linear-gradient(top, #18ffff, #0fa7af);
+    background: linear-gradient(to bottom, #18ffff, #0fa7af);
+    -webkit-box-shadow: #19ffff 0px 0px 5px 0px;
+    -moz-box-shadow: #19ffff 0px 0px 5px 0px;
+    box-shadow: #19ffff 0px 0px 5px 0px;
+    text-shadow: #0b777d 1px 0px 1px;
+    font: normal normal bold 10px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybtn1:hover,
+.mybtn1:focus {
+    border: 1px solid #15eefa;
+    background: #1dffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1dffff), to(#12c8d2));
+    background: -moz-linear-gradient(top, #1dffff, #12c8d2);
+    background: linear-gradient(to bottom, #1dffff, #12c8d2);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybtn1:active {
+    background: #0fa7af;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0fa7af), to(#0fa7af));
+    background: -moz-linear-gradient(top, #0fa7af, #0fa7af);
+    background: linear-gradient(to bottom, #0fa7af, #0fa7af);
+}
+
+
+.mybtn2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 15px;
+    border: 1px solid #4b74a6;
+    border-radius: 10px;
+    background: #7bbeff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7bbeff), to(#4b74a6));
+    background: -moz-linear-gradient(top, #7bbeff, #4b74a6);
+    background: linear-gradient(to bottom, #7bbeff, #4b74a6);
+    -webkit-box-shadow: #80c6ff 0px 0px 10px 0px;
+    -moz-box-shadow: #80c6ff 0px 0px 10px 0px;
+    box-shadow: #80c6ff 0px 0px 10px 0px;
+    text-shadow: #365377 1px 0px 1px;
+    font: normal normal bold 10px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybtn2:hover,
+.mybtn2:focus {
+    border: 1px solid #6ba5ed;
+    background: #94e4ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#94e4ff), to(#5a8bc7));
+    background: -moz-linear-gradient(top, #94e4ff, #5a8bc7);
+    background: linear-gradient(to bottom, #94e4ff, #5a8bc7);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mybtn2:active {
+    background: #4b74a6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4b74a6), to(#4b74a6));
+    background: -moz-linear-gradient(top, #4b74a6, #4b74a6);
+    background: linear-gradient(to bottom, #4b74a6, #4b74a6);
+}
+
+.btn-buy {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 13px 24px;
+    border: 1px solid #a8743d;
+    border-radius: 38px;
+    background: #ffbf64;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffbf64), to(#a8743d));
+    background: -moz-linear-gradient(top, #ffbf64, #a8743d);
+    background: linear-gradient(to bottom, #ffbf64, #a8743d);
+    -webkit-box-shadow: #ffc768 0px 0px 5px 0px;
+    -moz-box-shadow: #ffc768 0px 0px 5px 0px;
+    box-shadow: #ffc768 0px 0px 5px 0px;
+    text-shadow: #78532c 1px 1px 1px;
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-buy:hover,
+.btn-buy:focus {
+    border: 1px solid #f0a657;
+    background: #ffe578;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe578), to(#ca8b49));
+    background: -moz-linear-gradient(top, #ffe578, #ca8b49);
+    background: linear-gradient(to bottom, #ffe578, #ca8b49);
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-buy:active {
+    background: #a8743d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#a8743d), to(#a8743d));
+    background: -moz-linear-gradient(top, #a8743d, #a8743d);
+    background: linear-gradient(to bottom, #a8743d, #a8743d);
+}
+.btn-buy:after{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 -4px -6px 4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABdklEQVRIid3VsUocURQG4M9dkaAia0hSpLASSSH6FilszBtIwNJC8hKygdS22lsIBizE0kJCFMVACNqECEYLBZOIkqwW9+oON7PsONk0/nC4cw9n/v+ee86c4T+jC72YQR9OsIAfnRR5gQtcR3vXSfIUq/jYScJKst/FsHBtHUF3st/BANZwVZLzK6ZaCezF9Rm+lSAfjdYSvThHvQQ5bGI960hr8Av7GCtB/ggjQh1bCogBZQSGUMN2O4EdPMeTewrcHqpQBtkXimJc84rvkHYRoZN+YxKNguQVvMJnBcZMBd81R0dRO8dESpaXQQNbwox6XTCDRjz9ccF49Xiifx4ZeRkQOqkfcziLvj+otni+wnvNSdAWdfevwYWcGuShhp9YjFksxn0tiXsZiafxGJ+wkZLlfQc90Q6EljvI+LLoj+sX4RqPMr62WMElPsR1JSdmAIc4FWp2jTdpUDV1ZASqGMQSZv39f7jEMp4KbfoW81HoAeEGtaJoF9QWKd8AAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+.cmd {
+    border: 1px lightskyblue solid;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: #f5f5dc;
+}
+
+.cmd:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.cmd a {
+    text-decoration: none;
+}
+
+.cmd i {
+    padding-top: 5px;
+    color: rgb(0, 51, 255);
+    font-size: 10px;
+}
+
+.back-top {
+    z-index: 1;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.back-top:hover {
+    opacity: 0.8;
+    box-shadow: 0px 0px 6px #ffffff;
+}
+
+.back-top.hide {
+    opacity: 0;
+    transform: translateY(150%);
+}
+
+.mytst {
+    top: 100px;
+}
